@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Inicia sesión o regístrate</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../Styles/loginCss.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./../Styles/images/icon.png" alt="Icone music" width="30" height="24">
+                    style music Beta</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="page-content">
+            <h2 class="colorful-heading">El mejor blog musical, Solo en style music!</h2>
+            <div class="container" id="container">
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                        <h1>Crear una cuenta</h1>
+                        <input type="text" placeholder="Nombre*" />
+                        <input type="text" placeholder="Nombre usuario*" />
+                        <input type="email" placeholder="Email*" />
+                        <input type="password" placeholder="Password*" />
+                        <button>Registrarse</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Iniciar sesión</h1>
+                        <input type="text" placeholder="Usuario" />
+                        <input type="password" placeholder="Password" />
+
+                        <button>Ingresar</button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>¡Bienvenido de nuevo!</h1>
+                            <p>inicie sesión con su información personal</p>
+                            <button class="ghost" id="signIn">Ya eres un usuario?</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>¡Hola, Bienvenido!</h1>
+                            <p>Introduce tus credenciales y comparte tu opinión con los demás.</p>
+                            <button class="ghost" id="signUp">Usuario nuevo?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+            <p>style music &copy; 2024 dramDatajr</p>
+        </footer>
+
+        <script src="../js/JsLogin.js" type="text/javascript"></script>
+    </body>
+</html>
