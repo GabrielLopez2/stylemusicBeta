@@ -44,31 +44,6 @@ h1 {
 /*h2 {
     text-align: center;
 }*/
-.colorful-heading {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    background-image: linear-gradient(90deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0080, #ff0000); /* Define el gradiente de color */
-    -webkit-background-clip: text; /* Indica que el gradiente se aplique a las letras */
-    -webkit-text-fill-color: transparent; /* Hace que el texto sea transparente, mostrando el gradiente */
-    animation: rainbowAnimation 5s linear infinite; /* Aplica la animación de cambio de color al texto */
-}
-
-@keyframes rainbowAnimation {
-    0% { -webkit-text-fill-color: #ff0000; }
-    10% { -webkit-text-fill-color: #ff8000; }
-    20% { -webkit-text-fill-color: #ffff00; }
-    30% { -webkit-text-fill-color: #80ff00; }
-    40% { -webkit-text-fill-color: #00ff00; }
-    50% { -webkit-text-fill-color: #00ff80; }
-    60% { -webkit-text-fill-color: #00ffff; }
-    70% { -webkit-text-fill-color: #0080ff; }
-    80% { -webkit-text-fill-color: #0000ff; }
-    90% { -webkit-text-fill-color: #8000ff; }
-    100% { -webkit-text-fill-color: #ff00ff; }
-}
-
 p {
     font-size: 14px;
     font-weight: 100;

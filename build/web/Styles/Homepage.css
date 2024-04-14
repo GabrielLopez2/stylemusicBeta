@@ -25,6 +25,8 @@ body {
 
 .navbar-custom .navbar-nav {
     margin-left: auto; /* Mueve los elementos a la derecha */
+    display: flex;
+    align-items: center;
 }
 
 .navbar-custom .login-icon {

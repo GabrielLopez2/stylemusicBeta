@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-custom {
+    background-color: #fff; /* Cambia el color de fondo del navbar a blanco */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #333;
+    margin-right: 20px;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    color: #333; /* Cambia el color del icono del botón del navbar a negro */
+}
+
+.navbar-custom .navbar-nav {
+    margin-left: auto; /* Mueve los elementos a la derecha */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navbar-custom .login-icon {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    position: relative;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-custom .login-icon::before {
+    font-size: 1.5em;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-custom .login-icon {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar-custom .login-icon .arrow-icon {
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #ffa500;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-custom .login-icon .arrow-icon i {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+
+.banner {
+    background-image: url("../Styles/images/11557.jpg"); /* Ruta de la imagen */
+    background-size: cover; /* Cubrir toda la área */
+    background-position: center; /* Centrar la imagen */
+    height: 300px; /* Altura del banner */
+}
+
+
+/* Estilos para el contenedor */
+.contenedorA {
+    display: flex; /* Utilizar flexbox para organizar los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: flex-end; /* Alinear los elementos al extremo derecho */
+}
+
+/* Estilos para el contenedor del texto */
+.btn-text {
+    margin-right: 10px; /* Añadir un pequeño margen derecho entre el texto y el botón */
+}
+
+/* Estilos para el texto */
+.btn-text p {
+    margin-bottom: 0; /* Eliminar el margen inferior del párrafo */
+}
+
+
+
+/* Estilos para el modal */
+.modal {
+    overflow-y: auto; /* Habilitar desplazamiento vertical si el contenido excede el tamaño del modal */
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilos para el encabezado del modal */
+.modal-header {
+    background-color: #f0f0f0; /* Color de fondo */
+    border-bottom: none; /* Eliminar borde inferior */
+}
+
+/* Estilos para el cuerpo del modal */
+.modal-body {
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para el formulario dentro del modal */
+#formularioPost {
+    margin-bottom: 0; /* Eliminar margen inferior */
+}
+
+/* Estilos para los botones dentro del modal */
+.modal-footer .btn {
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el botón "Publicar" dentro del modal */
+#btnPublicar {
+    background-color: #007bff; /* Color de fondo */
+    border-color: #007bff; /* Color del borde */
+}
+
+/* Estilos para el botón "Cerrar" dentro del modal */
+.btn-secondary {
+    background-color: #6c757d; /* Color de fondo */
+    border-color: #6c757d; /* Color del borde */
+}
